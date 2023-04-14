@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>MAR-DOM Przedsiębiorstwo Budowlane</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Prężnie rozwijające się przedsiębiorstwo budowlane ze specjalizacją w budowie domów jednorodzinnych. Rzetelność i jakość od 2009 r. Serdecznie zapraszamy!" />
+        <meta name="keywords" content="budownictwo, dom jednorodzinny, przedsiębiorstwo budowlane, firma, firma budowlana" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="author" content="Szymon Markiewicz" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        <link rel="stylesheet" href="../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css" type="text/css" />
+        <link rel="icon" href="../imgs/logoicon.png" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins&family=Archivo+Black&family=Cinzel&family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display+SC&family=Playfair+Display:ital@0;1&family=Stick+No+Bills:wght@500;600;700;800&family=Josefin+Sans:wght@300;500&family=Noto+Serif:wght@700&display=swap" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body data-scroll-container data-scroll-direction="vertical">
+        <header class="header" data-scroll-sticky>
+            <a href="index.html"><img id="header__logo" src="../imgs/logofull.png" /></a>
+            <nav>
+                <ul id="header__menu">
+                    <li class="header__menu__item"><a href="index.html" class="menu-link">Strona główna</a></li>
+                    <li class="header__menu__item"><a href="about_us.html" class="menu-link">O firmie</a></li>
+                    <li class="header__menu__item--current"><a href="gallery.html" class="menu-link">Realizacje</a></li>
+                    <li class="header__menu__item"><a href="contact_us.html" class="menu-link">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div id="header__slider"></div>
+        </header>
+        <main class="container" data-scroll-section>
+            <span id="container__introduction--gallery">Zapraszamy do zapoznania się ze zdjęciami przykładowych realizacji - również na żywo, po uprzednim uzgodnieniu.</span>
+            <div class="container__gallery-container">
+                <a href="../imgs/img1.jpg" data-fancybox="gallery" data-caption="Pierwsze zdjęcie">
+                    <img src="../imgs/img1.jpg" class="gallery-image" alt="Zdjęcie budowy">
+                </a>
+                <a href="../imgs/img2.jpg" data-fancybox="gallery" data-caption="Pierwsze zdjęcie">
+                    <img src="../imgs/img2.jpg" class="gallery-image">
+                </a>
+                <a href="../imgs/img3.jpg" data-fancybox="gallery" data-caption="Pierwsze zdjęcie">
+                    <img src="../imgs/img3.jpg" class="gallery-image" alt="Zdjęcie budowy">
+                </a>
+                <a href="../imgs/img4.jpg" data-fancybox="gallery" data-caption="Pierwsze zdjęcie">
+                    <img src="../imgs/img4.jpg" class="gallery-image" alt="Zdjęcie budowy">
+                </a>
+            </div>
+            <button class="btn btn-outline-danger center-block loadMore">Załaduj więcej</button> 
+        </main>
+        <footer class="footer" id="footer" data-scroll-section>
+            <div class="footer__content">
+                <address id="footer__social">
+                    <div id="footer__social--contact">
+                        <h4 class="heading">Zostańmy w kontakcie</h4>tel. 505 077 638<br />mardompulawy@wp.pl
+                    </div>
+                    <div id="footer__social--facebook">
+                        <h4 class="heading">Sprawdź nas na Facebooku</h4><a href="https://www.facebook.com/mardompulawy" target="_blank" rel="noreferrer noopener" class="fa fa-facebook"></a>
+                    </div>
+                </address>
+                <div id="footer__label">
+                    <hr class="ftr"><p id="footer__label--company-name">
+                    Przedsiębiorstwo Budowlane MAR-DOM</p><p id="footer__label--full-name">Artur Markiewicz</p><hr class="ftr">
+                </div>
+                <div id="footer__credits">
+                    © 2022 MAR-DOM<span id="footer__credits--right">Projekt i wykonanie: Szymon Markiewicz</span>
+                </div>
+            </div>
+        </footer>
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="module" src="../js/scrollingEffects.js"></script>
+        <script type="module" src="../js/fancyboxGallery.js"></script>
+        <script type="module" src="../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+        <script type="module" src="../js/loadMore.js"></script>
+        <noscript>
+            Do pełnej funkcjonalności strony potrzebujesz włączonej obsługi skryptów.
+            Tu znajdziesz <a href="https://www.enable-javascript.com/pl/">
+            instrukcje, które pozwolą Ci włączyć skrypty w Twojej przeglądarce</a>.
+        </noscript>
+    </body>
+</html>

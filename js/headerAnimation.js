@@ -1,5 +1,6 @@
-var animateHeader = true;
-var slider = document.getElementById("header__slider").className;
+let animateHeader = true;
+let slider = document.getElementById("header__slider").className;
+
 window.addEventListener("scroll", function() {
     if (this.scrollY > 100 && animateHeader) {
         document.getElementById("header__menu").classList.add("tiny");

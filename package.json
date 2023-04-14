@@ -1,0 +1,30 @@
+{
+  "name": "mar-dom-website",
+  "version": "0.6.0",
+  "description": "Website for MAR-DOM construction company.",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szmarkiewicz/MAR-DOM-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szmarkiewicz/MAR-DOM-Website/issues"
+  },
+  "homepage": "https://github.com/szmarkiewicz/MAR-DOM-Website#readme",
+  "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "locomotive-scroll": "^4.1.4",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "jquery": "^3.6.4"
+  }
+}
